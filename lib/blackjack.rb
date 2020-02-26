@@ -37,7 +37,7 @@ end
 
 def hit?
   # code hit? here
-  valid_inputs = "h", "s"
+  valid_inputs = ["h", "s"]
 end
 
 def invalid_command
