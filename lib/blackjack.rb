@@ -43,6 +43,8 @@ def hit?
   get_user_input
   
   until valid_inputs.include?(user_input)
+  invalid_command
+  
 end
 
 def invalid_command
