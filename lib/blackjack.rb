@@ -38,6 +38,8 @@ end
 def hit?
   # code hit? here
   valid_inputs = ["h", "s"]
+  
+  prompt_user = 
 end
 
 def invalid_command
