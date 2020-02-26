@@ -39,8 +39,9 @@ def hit?
   # code hit? here
 end
 
-def invalid_command
+def invalid_command.include?(user_input)
   # code invalid_command here
+  
 end
 
 #####################################################
